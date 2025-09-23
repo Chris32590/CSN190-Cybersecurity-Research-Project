@@ -1,8 +1,6 @@
 Module 3 — GitHub Project Analysis
 CSN 190 – Research Notes
 
----
-
 Topic 1: Ransomware Evolution & Defense Strategies
 
 GitHub Project 1: Raccine
@@ -17,8 +15,6 @@ GitHub Project 2: Velociraptor
 - Synopsis: Velociraptor is a big tool for investigating and responding to incidents like ransomware. It lets investigators collect evidence from many computers at once, check for suspicious files, and see how attackers moved through a system. It runs on Windows, Linux, and macOS. It has strong documentation and is still being updated. Stats: about 3.5k stars, 555 forks.
 - Relevance: 5/5. This tool is very relevant because it covers the response side of ransomware. It helps show what to do after an attack happens.
 
----
-
 Topic 2: IoT Device Security & Government Surveillance Risks
 
 GitHub Project 1: IoTGoat
@@ -32,8 +28,6 @@ GitHub Project 2: RouterSploit
 - Type: Security Tool / Exploitation Framework
 - Synopsis: RouterSploit is like Metasploit but focused on routers and IoT devices. It has modules for scanning, exploiting, and testing passwords on many different brands of hardware. It’s useful for showing how weak IoT security can be in real life. The project has a lot of stars but has not had a big release in a while. Stats: about 12.8k stars, 2.4k forks.
 - Relevance: 4/5. It shows the attack side of IoT insecurity and is good for demonstrations, but it’s not always up to date.
-
----
 
 Comparison Notes
 - Ransomware: Raccine is simple and focuses on prevention, while Velociraptor is much bigger and focuses on investigation after the fact. Together, they show both sides of defense.
