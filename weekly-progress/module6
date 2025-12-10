@@ -1,0 +1,19 @@
+# Module 6 – Start Developing (Hands-On Work)
+
+## Summary
+Module 6 was the beginning of hands-on cybersecurity development. I started using Wireshark inside Kali Linux and captured traffic from Metasploitable2.
+
+## Key Tasks
+- Set up VMs in VirtualBox using NAT Network.
+- Used Wireshark to analyze ICMP echo requests and replies.
+- Captured traffic between Kali Linux and Metasploitable2.
+- Created screenshots and notes for the final tutorial.
+
+## Skills Learned
+- Packet analysis
+- Virtual network configuration
+- Technical documentation
+
+## Files Created
+- SETUP-GUIDE.md (added later to /docs)
+- ICMP Traffic Analysis Tutorial (added later to /docs)
