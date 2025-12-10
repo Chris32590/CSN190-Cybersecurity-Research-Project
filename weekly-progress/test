@@ -1,1 +1,184 @@
-test
+weekly-progress/
+  
+
+# Week 1 – Initial Setup and Topic Exploration
+
+## What I Did This Week
+- Set up my GitHub repository for the CSN190 final project.
+- Completed the pre-assessment and reviewed the course structure.
+- Explored cybersecurity project ideas, including password cracking, network analysis, and vulnerability scanning.
+- Evaluated several GitHub security projects to find one suitable for cloning and analysis.
+
+## Challenges
+- Narrowing down a topic because many cybersecurity tools were interesting.
+- Deciding whether to focus on offensive or defensive security.
+
+## What I Learned
+- How to properly document a project on GitHub.
+- How to analyze and evaluate open-source cybersecurity tools.
+- Importance of version control for cybersecurity research.
+
+## Plans for Next Week
+- Finalize my project topic.
+- Begin gathering academic and industry resources.
+
+
+
+# Week 2 – Resource Analysis and Topic Decision
+
+## What I Did This Week
+- Completed the Resource Analysis assignment.
+- Located credible research sources, including academic papers and industry articles.
+- Evaluated how each source supports my chosen tool (Wireshark).
+- Finalized my project: **Network Traffic Analysis Using Wireshark**.
+
+## Challenges
+- Finding academic sources that relate specifically to packet analysis.
+- Understanding some advanced Wireshark features.
+
+## What I Learned
+- Difference between general cybersecurity sources and tool-specific research.
+- How Wireshark is used by network analysts, SOC teams, and penetration testers.
+
+## Plans for Next Week
+- Begin writing the feasibility assessment.
+- Start planning the lab environment setup.
+
+
+# Week 3 – Feasibility Assessment & Environment Planning
+
+## What I Did This Week
+- Completed the Feasibility Assessment.
+- Designed the environment: VirtualBox + Kali Linux + Metasploitable2.
+- Decided on test traffic types (ICMP, TCP handshake capture, credentials capture).
+- Wrote out the lab setup procedure.
+
+## Challenges
+- Making sure my computer had enough RAM to run 2 VMs.
+- Understanding the NAT network configuration in VirtualBox.
+
+## What I Learned
+- How to configure isolated lab networks safely.
+- Why Metasploitable2 is ideal for controlled attacks.
+- How Wireshark captures packets at different layers.
+
+## Plans for Next Week
+- Start building the actual environment.
+- Begin testing network traffic captures.
+
+
+# Week 4 – Virtual Lab Setup & Initial Testing
+
+## What I Did This Week
+- Installed VirtualBox, Kali Linux, and Metasploitable2.
+- Created an internal NAT network for safe traffic testing.
+- Installed Wireshark on Kali.
+- Performed my first simple packet capture (ICMP ping).
+
+## Challenges
+- VirtualBox networking settings were confusing at first.
+- Wireshark captured too much noise — had to apply filters.
+
+## What I Learned
+- How to use Wireshark filters: `icmp`, `http`, `tcp.port==80`.
+- How to generate traffic between VMs and analyze responses.
+- Basics of packet structure (Ethernet header, IP header, TCP header).
+
+## Plans for Next Week
+- Perform deeper packet analysis.
+- Capture more complex traffic.
+
+
+
+# Week 5 – Deeper Wireshark Analysis
+
+## What I Did This Week
+- Captured ICMP, ARP, and TCP handshake packets.
+- Followed packet streams to understand communication flow.
+- Used display filters and color rules to clean up captures.
+- Documented findings in my notes and GitHub “your-work” folder.
+
+## Challenges
+- Understanding TCP flags like SYN, ACK, FIN.
+- Keeping captures organized.
+
+## What I Learned
+- How Wireshark reconstructs conversations.
+- How attackers use packet analysis to find weaknesses.
+- How ARP spoofing works and how Wireshark detects anomalies.
+
+## Plans for Next Week
+- Begin writing the Medium article first draft.
+- Capture screenshots for documentation.
+
+
+
+# Week 6 – Medium Article (First Draft)
+
+## What I Did This Week
+- Started writing the Medium Article draft.
+- Collected screenshots from Wireshark captures.
+- Explained installation, setup, and ICMP traffic analysis.
+- Outlined the entire article structure (title → research → conclusion).
+
+## Challenges
+- Keeping the article within 1500–2500 words.
+- Figuring out how to present technical content in a simple way.
+
+## What I Learned
+- How to write cybersecurity explanations for a general audience.
+- Importance of documenting commands and visuals.
+- How Medium authors structure step-by-step tutorials.
+
+## Plans for Next Week
+- Finish the article draft.
+- Submit for instructor feedback.
+
+
+
+# Week 7 – Final Draft Improvements
+
+## What I Did This Week
+- Revised the Medium article based on feedback.
+- Added missing screenshots and fixed formatting.
+- Cleaned up the GitHub repository structure.
+- Wrote README files for each folder.
+
+## Challenges
+- Making sure all screenshots were labeled properly.
+- Improving clarity in the tutorial sections.
+
+## What I Learned
+- How to structure a professional GitHub repository.
+- How to write clearer technical documentation.
+- How to merge research with hands-on experience.
+
+## Plans for Next Week
+- Prepare final submission.
+- Record final video (if required by professor).
+
+
+
+# Week 8 – Final Submission Preparation
+
+## What I Did This Week
+- Completed the final draft of the Medium article.
+- Uploaded all source code, captures, and documentation.
+- Verified the repository meets Module 8 structure requirements.
+- Finalized README.md and resources folder.
+- Prepared everything for Brightspace submission.
+
+## Challenges
+- Ensuring every required file was included.
+- Making the repository easy to navigate.
+
+## What I Learned
+- How to deliver a complete cybersecurity research project.
+- How to present technical findings professionally.
+- Importance of clear documentation for cybersecurity work.
+
+## Final Step
+- Submit GitHub link + PDF drafts to Brightspace.
+
+
+
